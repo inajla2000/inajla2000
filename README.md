@@ -29,10 +29,13 @@
 
 ---
 
-### 🚀 My Projects
-| اسم المشروع | نبذة عن المشروع | التقنيات | عرض المشروع |
+### 🚀 My Projects 
 
-| **Web Project** |Book tickets | Java|Netbeans | الفيديو أدناه 👇 |
+| **Web Project** |Book tickets | Java Netbeans | الفيديو أدناه 👇 |
 
 #### 🎬 فيديو استعراض المشروع
-(https://github.com/user-attachments/assets/e7b5f97f-cd3b-4a4b-9800-10d3fca1859a)
+
+
+https://github.com/user-attachments/assets/0a67b0b7-c478-443f-adec-b3b619884e59
+
+

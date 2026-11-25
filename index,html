@@ -1,9 +1,192 @@
-<header>
-      <h2>Najla Alsubaie | نجلاء السبيعي</h2>
-      <p style="font-weight: 700; color: #e9d5ff; margin-bottom: 10px;">
-        Software Developer • Computer Science Graduate
-      </p>
-      <div class="skills-grid" style="justify-content: center; margin-bottom: 14px;">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نجلاء السبيعي | Najla Alsubaie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0f071a;
+      --bg-card: #1a0d2e;
+      --purple-primary: #8b5cf6;
+      --purple-glow: #6d28d9;
+      --purple-soft: #c4b5fd;
+      --text-main: #f5f3ff;
+      --text-muted: #c4b5fd;
+      --border-color: rgba(139, 92, 246, 0.28);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: radial-gradient(circle at top right, #241042 0%, var(--bg-dark) 55%);
+      color: var(--text-main);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 24px;
+      background: linear-gradient(145deg, rgba(46, 16, 101, 0.75), rgba(20, 10, 38, 0.9));
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      margin-bottom: 35px;
+    }
+
+    h2.hero-name {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(90deg, #ffffff, #c4b5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .hero-role {
+      font-weight: 700;
+      color: #e9d5ff;
+      margin-bottom: 14px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 24px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 11px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: all 0.25s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--purple-primary), var(--purple-glow));
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(109, 40, 217, 0.45);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(139, 92, 246, 0.65);
+    }
+
+    .btn-outline {
+      background: rgba(139, 92, 246, 0.12);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-outline:hover {
+      background: rgba(139, 92, 246, 0.25);
+    }
+
+    section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 28px;
+    }
+
+    h2.section-title {
+      font-size: 1.45rem;
+      color: #e9d5ff;
+      margin-bottom: 18px;
+      border-right: 4px solid var(--purple-primary);
+      padding-right: 12px;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill-tag {
+      background: rgba(109, 40, 217, 0.22);
+      border: 1px solid rgba(167, 139, 250, 0.35);
+      color: #ede9fe;
+      padding: 8px 18px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .project-card {
+      background: rgba(15, 7, 26, 0.65);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 22px;
+      margin-top: 15px;
+    }
+
+    .project-card h3 {
+      color: #ddd6fe;
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+
+    .project-card p {
+      color: #c4b5fd;
+      font-size: 0.98rem;
+      margin-bottom: 16px;
+    }
+
+    .video-wrapper {
+      width: 100%;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      background: #090410;
+    }
+
+    video {
+      width: 100%;
+      display: block;
+      max-height: 460px;
+    }
+
+    footer {
+      text-align: center;
+      color: #a78bfa;
+      font-size: 0.9rem;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h2 class="hero-name">Najla Alsubaie | نجلاء السبيعي</h2>
+      <p class="hero-role">Software Developer • Computer Science Graduate</p>
+      <div class="skills-grid" style="justify-content: center; margin-bottom: 16px;">
         <span class="skill-tag">Dart</span>
         <span class="skill-tag">Java</span>
         <span class="skill-tag">Android</span>
@@ -18,3 +201,36 @@
         <a href="https://github.com/inajla2000" target="_blank" class="btn btn-outline">GitHub</a>
       </div>
     </header>
+
+    <section>
+      <h2 class="section-title">اللغات والتقنيات والمهارات</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Dart</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Android</span>
+        <span class="skill-tag">iOS</span>
+        <span class="skill-tag">Web Development</span>
+        <span class="skill-tag">Microsoft Office</span>
+        <span class="skill-tag">الابتكار</span>
+        
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">أعمالي   </h2>
+      <div class="project-card">
+        <h3>مشروع الويب (Web Project)</h3>
+        <p>استعراض عملي لواجهة المشروع وطريقة عمله.</p>
+        <div class="video-wrapper">
+          <video controls src="https://github.com/user-attachments/assets/e7b5f97f-cd3b-4a4b-9800-10d3fca1859a"></video>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 نجلاء السبيعي — جميع الحقوق محفوظة
+    </footer>
+  </div>
+
+</body>
+</html>
